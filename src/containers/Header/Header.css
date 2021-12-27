@@ -1,0 +1,233 @@
+        .lotr-countdown {
+            margin: 0 auto;
+            display: flex;
+            width: 100%;
+        }
+        
+        .lotr-countdown_title {
+            font-size: 20px;
+            text-align: center;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 650px;
+        }
+        
+        .lotr-countdown_title img {
+            bottom: 20px;
+            position: relative;
+            width: 380px;
+        }
+        
+        .lotr-countdown_values {
+            margin: 0 auto;
+            text-align: -webkit-center;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .wp-caption {
+            position: relative;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .wp-caption img {
+            display: block;
+            max-width: 34%;
+            height: auto;
+            -webkit-animation: spin 4s linear infinite;
+            -moz-animation: spin 4s linear infinite;
+            animation: spin 50s linear infinite;
+        }
+        
+        .wp-caption-text {
+            display: block;
+            position: absolute;
+            width: 100%;
+            font-size: 5vh;
+            text-align: center;
+            line-height: 10vh;
+            height: 11vh;
+            color: white;
+            text-align: center;
+            left: 0;
+            bottom: 17px;
+            z-index: 2;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        @-moz-keyframes spin {
+            100% {
+                -moz-transform: rotate(360deg);
+            }
+        }
+        
+        @-webkit-keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        
+        .days {
+            top: 115px;
+        }
+        
+        @media screen and (max-width:1170px) {
+            .wp-caption-text {
+                height: 10vh;
+            }
+            .days {
+                top: 100px;
+            }
+        }
+        
+        @media screen and (max-width:1050px) {
+            .wp-caption-text {
+                height: 9vh;
+            }
+            .days {
+                top: 90px;
+            }
+        }
+        
+        @media screen and (max-width:950px) {
+            .days {
+                top: 85px;
+            }
+        }
+        
+        @media screen and (max-width:900px) {
+            .lotr-countdown_values :not(figcaption.days) {
+                font-size: 25px;
+            }
+            .days {
+                top: 80px;
+                font-size: 25px;
+            }
+        }
+        
+        @media screen and (max-width:870px) {
+            .wp-caption-text {
+                height: 8vh;
+            }
+            .days {
+                top: 70px;
+            }
+        }
+        
+        @media screen and (max-width:760px) {
+            .lotr-countdown_values :not(figcaption.days) {
+                font-size: 20px;
+            }
+            .days {
+                top: 60px;
+            }
+        }
+        
+        @media screen and (max-width:700px) {
+            .wp-caption-text {
+                height: 7vh;
+            }
+            .days {
+                font-size: 20px;
+            }
+        }
+        
+        @media screen and (max-width:600px) {
+            .wp-caption-text {
+                height: 6vh;
+            }
+            .days {
+                top: 50px;
+            }
+        }
+        
+        @media screen and (max-width:550px) {
+            .lotr-countdown_values :not(figcaption.days) {
+                font-size: 15px;
+            }
+            .days {
+                top: 40px;
+            }
+        }
+        
+        @media screen and (max-width:500px) {
+            .wp-caption-text {
+                height: 5.6vh;
+            }
+            .days {
+                top: 35px;
+            }
+        }
+        
+        @media screen and (max-width:430px) {
+            .wp-caption-text {
+                height: 5vh;
+            }
+            .days {
+                top: 30px;
+                font-size: 15px;
+            }
+        }
+        
+        @media screen and (max-width:375px) {
+            .lotr-countdown_title {
+                font-size: 15px;
+            }
+            .lotr-countdown_title img {
+                width: 290px;
+            }
+        }
+        
+        @media screen and (min-height:900px) {
+            .wp-caption-text {
+                height: 7vh;
+            }
+        }
+        
+        @media screen and (min-height:1000px) {
+            .wp-caption-text {
+                height: 6.6vh;
+            }
+        }
+        
+        @media screen and (min-height:1010px) {
+            .wp-caption-text {
+                height: 6.4vh;
+            }
+        }
+        
+        @media screen and (min-height:1020px) {
+            .wp-caption-text {
+                height: 6.3vh;
+            }
+        }
+        
+        @media screen and (min-height:1030px) {
+            .wp-caption-text {
+                height: 6.3vh;
+            }
+        }
+        
+        @media screen and (min-height:1200px) {
+            .wp-caption-text {
+                height: 7vh;
+                font-size: 30px;
+            }
+        }

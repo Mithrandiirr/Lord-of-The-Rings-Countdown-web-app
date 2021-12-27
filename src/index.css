@@ -1,0 +1,22 @@
+@font-face {
+    font-family: ringbearer;
+    src: url(./assets/ringbearer.TTF);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: ringbearer;
+    width: 100%;
+}
+
+body {
+    background: url(./assets/lotr.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
