@@ -52,7 +52,8 @@
             display: block;
             position: absolute;
             width: 100%;
-            font-size: 5vh;
+            
+    font-size: 30px;
             text-align: center;
             line-height: 10vh;
             height: 11vh;
@@ -85,22 +86,19 @@
         }
         
         .days {
-            top: 115px;
+            top: 20vh;
+    position: absolute;
         }
         
         @media screen and (max-width:1170px) {
-            .wp-caption-text {
-                height: 10vh;
-            }
+
             .days {
                 top: 100px;
             }
         }
         
         @media screen and (max-width:1050px) {
-            .wp-caption-text {
-                height: 9vh;
-            }
+           
             .days {
                 top: 90px;
             }
@@ -123,9 +121,7 @@
         }
         
         @media screen and (max-width:870px) {
-            .wp-caption-text {
-                height: 8vh;
-            }
+          
             .days {
                 top: 70px;
             }
@@ -141,9 +137,7 @@
         }
         
         @media screen and (max-width:700px) {
-            .wp-caption-text {
-                height: 7vh;
-            }
+          
             .days {
                 font-size: 20px;
             }

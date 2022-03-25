@@ -14,26 +14,7 @@ const Header = () => {
             </div>
             <div className='lotr-countdown_values'>
                 <Count />
-                {/* <figure class="wp-caption">
-                    <img class="demo" src={symbol1} alt="Image" />
-                    <figcaption class="wp-caption-text" id='here'>200</figcaption>
-                    <figcaption class="wp-caption-text days">Days</figcaption>
-                </figure>
-                <figure class="wp-caption">
-                    <img class="demo" src={symbol1} alt="Image" />
-                    <figcaption class="wp-caption-text">44</figcaption>
-                    <figcaption class="wp-caption-text days">Hours</figcaption>
-                </figure>
-                <figure class="wp-caption">
-                    <img class="demo" src={symbol1} alt="Image" />
-                    <figcaption class="wp-caption-text">15</figcaption>
-                    <figcaption class="wp-caption-text days">Minutes</figcaption>
-                </figure>
-                <figure class="wp-caption">
-                    <img class="demo" src={symbol1} alt="Image" />
-                    <figcaption class="wp-caption-text">49</figcaption>
-                    <figcaption class="wp-caption-text days">Seconds</figcaption>
-                </figure> */}
+
             </div>
         </div>
     )
